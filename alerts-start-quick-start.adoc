@@ -20,7 +20,7 @@ link:alerts-start-prerequisites.html["Assurez-vous que votre environnement répo
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"]Configurer les alertes ONTAP
 [role="quick-margin-para"]
-link:alerts-start-setup.html["Configurer un agent de console dans la console NetApp"] .
+link:alerts-start-setup.html["Configurer un agent de console dans la NetApp Console"] .
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"]Quelle est la prochaine étape ?
 [role="quick-margin-para"]

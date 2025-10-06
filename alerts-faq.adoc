@@ -18,25 +18,25 @@ Cette FAQ peut vous aider si vous recherchez simplement une réponse rapide à u
 
 == Accès aux alertes NetApp
 
-*Quelle est l'URL des alertes NetApp ?*  Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la console NetApp .
+*Quelle est l'URL des alertes NetApp ?*  Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la NetApp Console.
 
 *Avez-vous besoin d'une licence pour utiliser les alertes NetApp ?*
 
-L'utilisation des alertes NetApp nécessite une licence NetApp ONTAP 9.10 ou supérieure.  La licence n’a pas besoin d’être saisie dans le portefeuille numérique de la console NetApp .
+L'utilisation des alertes NetApp nécessite une licence NetApp ONTAP 9.10 ou supérieure.  La licence n’a pas besoin d’être saisie dans le portefeuille numérique de la NetApp Console .
 
 Vous n’avez pas besoin d’une licence d’essai pour les alertes NetApp .
 
-*Comment activer les alertes NetApp ?*  Les alertes NetApp ne nécessitent aucune activation.  L'option d'alertes est automatiquement activée dans la navigation de gauche de la console NetApp .
+*Comment activer les alertes NetApp ?*  Les alertes NetApp ne nécessitent aucune activation.  L'option d'alertes est automatiquement activée dans la navigation de gauche de la NetApp Console .
 
 Pour commencer, lorsque vous utilisez l’agent de console, il inclura les fonctionnalités appropriées pour les alertes NetApp .
 
-**Les alertes NetApp sont-elles disponibles en modes standard, restreint et privé ?**  Les alertes NetApp peuvent être déployées uniquement dans la console NetApp standard (publique).
+**Les alertes NetApp sont-elles disponibles en modes standard, restreint et privé ?**  Les alertes NetApp peuvent être déployées uniquement dans la NetApp Console standard (publique).
 
-Pour une explication sur ces modes dans tous les services de la console NetApp , reportez-vous à https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modes de déploiement de la console NetApp"^] .
+Pour une explication sur ces modes dans tous les services de la NetApp Console , reportez-vous à https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modes de déploiement de la NetApp Console"^] .
 
 **Comment sont gérées les autorisations d’accès ?**  Seuls les administrateurs de l'organisation NetApp Console ont la possibilité de lancer des alertes NetApp et de découvrir des charges de travail (car cela implique de s'engager à utiliser une ressource).
 
-Les alertes sont affichées pour les utilisateurs connectés en fonction de leur accès à la ressource du cluster dans cette organisation NetApp Console.
+Les alertes sont affichées pour les utilisateurs connectés en fonction de leur accès à la ressource du cluster dans cette organisation NetApp Console .
 
 
 
@@ -60,6 +60,6 @@ Pour voir toutes les alertes, sélectionnez le filtre de la colonne Statut et s�
 
 == Affichage des informations
 
-**Quelle est la meilleure résolution d'appareil ?**  La résolution d'appareil recommandée pour les alertes NetApp est de 1920 x 1080 ou supérieure.
+**Quelle est la meilleure résolution d'appareil ?**  La résolution de périphérique recommandée pour les alertes NetApp est de 1920 x 1080 ou supérieure.
 
 **Quel navigateur dois-je utiliser ?**  N’importe quel navigateur moderne fonctionnera.

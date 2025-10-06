@@ -30,7 +30,7 @@ La gravité EMS correspond à la gravité des alertes ONTAP des manières suivan
 
 [cols="40,40"]
 |===
-| Gravité de l'alerte EMS : | Gravité de l'alerte de la console NetApp : 
+| Gravité de l'alerte EMS : | Gravité de l'alerte de la NetApp Console : 
 
 
 | alerte ou urgence | critique 
@@ -146,7 +146,7 @@ Pour plus de détails sur les alertes ONTAP , reportez-vous à la documentation 
 == Afficher les problèmes de stockage ONTAP
 
 .Étapes
-. link:alerts-start-login.html["Connectez-vous à la console NetApp"] .
+. link:alerts-start-login.html["Connectez-vous à la NetApp Console"] .
 . Dans la barre de navigation de gauche de la console, sélectionnez *Stockage* > *Alertes*.
 +
 Après la découverte, la page Liste des alertes affiche une liste des alertes dans votre système ONTAP .

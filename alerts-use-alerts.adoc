@@ -18,7 +18,7 @@ Affichez les alertes associées à votre système de stockage ONTAP et accédez 
 
 == Afficher les détails de l'alerte
 
-. link:alerts-start-login.html["Connectez-vous à la console NetApp"] .
+. link:alerts-start-login.html["Connectez-vous à la NetApp Console"] .
 . Dans la barre de navigation de gauche de la console, sélectionnez *Stockage* > *Alertes*.
 . Dans la page de liste des alertes, sélectionnez une alerte.
 +

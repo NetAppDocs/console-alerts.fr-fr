@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: alerts-start-login.html 
 keywords: NetApp Console login, log in, ontap, netapp 
-summary: Commencez à utiliser les alertes ONTAP en accédant aux alertes ONTAP dans la console NetApp . 
+summary: Commencez à utiliser les alertes ONTAP en accédant aux alertes ONTAP dans la NetApp Console. 
 ---
 = Accéder aux alertes ONTAP
 :hardbreaks:
@@ -12,12 +12,12 @@ summary: Commencez à utiliser les alertes ONTAP en accédant aux alertes ONTAP 
 
 
 [role="lead"]
-Vous utilisez la console NetApp pour afficher les alertes ONTAP .
+Vous utilisez la NetApp Console pour afficher les alertes ONTAP .
 
-Pour vous connecter à la console NetApp , vous pouvez utiliser vos informations d'identification du site de support NetApp ou vous inscrire pour une connexion au cloud NetApp à l'aide de votre e-mail et d'un mot de passe. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["En savoir plus sur la connexion"^] .
+Pour vous connecter à la NetApp Console, vous pouvez utiliser vos informations d'identification du site de support NetApp ou vous inscrire pour une connexion au cloud NetApp à l'aide de votre e-mail et d'un mot de passe. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["En savoir plus sur la connexion"^] .
 
 .Étapes
-. Ouvrez un navigateur Web et accédez à la https://console.netapp.com/["Console NetApp"^] .
+. Ouvrez un navigateur Web et accédez à la https://console.netapp.com/["NetApp Console"^] .
 +
 La page de connexion à la console apparaît.
 

@@ -16,24 +16,24 @@ Commencez à utiliser les alertes ONTAP en vérifiant l’état de préparation 
 
 Pour afficher les alertes ONTAP , vous aurez besoin de ces prérequis :
 
-* ONTAP 9.10 et versions ultérieures.  Le système sur site doit être découvert dans la page Systèmes de la console NetApp .
+* ONTAP 9.10 et versions ultérieures.  Le système sur site doit être découvert dans la page Systèmes de la NetApp Console .
 +
 ** Autorisations ONTAP de l'administrateur du cluster
 +
-La licence n’a pas besoin d’être saisie dans le portefeuille numérique de la console NetApp .
+La licence n’a pas besoin d’être saisie dans le portefeuille numérique de la NetApp Console .
 
 
 
-* Dans la console NetApp :
+* Dans la NetApp Console:
 +
-** Un système de console NetApp avec stockage NAS ou SAN sur site NetApp
-** Un agent de console pour une région sur site doit être configuré dans la console NetApp . Se référer à https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentation de la console NetApp pour configurer l'agent de la console"^] .
+** Un système de NetApp Console avec stockage NAS ou SAN sur site NetApp
+** Un agent de console pour une région sur site doit être configuré dans la NetApp Console. Se référer à https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Documentation de la NetApp Console pour configurer l'agent de la console"^] .
 +
 Si un cluster est supprimé de l'agent de console, les alertes liées à ce cluster restent présentes pendant 90 jours.  De plus, si vous modifiez l’agent de la console, les alertes restent associées au cluster et à l’agent d’origine pendant 90 jours.  Si vous revenez à l’agent d’origine, vous verrez à nouveau ces alertes.
 
-** Une organisation de console NetApp avec au moins un agent de console actif se connectant aux clusters ONTAP sur site.  Toutes les sources et tous les systèmes doivent se trouver dans la même organisation de console NetApp .
-** Un utilisateur de la console NetApp dans cette organisation avec des privilèges d'administrateur d'organisation pour la découverte des ressources
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Configuration requise pour la console NetApp standard"^]
+** Une organisation de NetApp Console avec au moins un agent de console actif se connectant aux clusters ONTAP sur site.  Toutes les sources et tous les systèmes doivent se trouver dans la même organisation de NetApp Console .
+** Un utilisateur de la NetApp Console dans cette organisation avec des privilèges d'administrateur d'organisation pour la découverte des ressources
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Configuration requise NetApp Console standard"^]
 
 
 
