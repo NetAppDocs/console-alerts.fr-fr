@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-overview.html 
+keywords: alerts, alerts, ontap, netapp 
+summary: À l’aide des alertes NetApp , vous pouvez afficher l’état de la charge de travail et protéger les charges de travail. 
+---
+= Afficher l'aperçu des alertes ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Affichez les problèmes de stockage et consultez les détails avec des liens directs vers ONTAP System Manager.
+
+* link:alerts-use-dashboard.html["Afficher les problèmes de stockage ou les risques potentiels à partir de la page de liste des alertes"] .
+* link:alerts-use-alerts.html["Afficher les détails des alertes liées dans ONTAP System Manager"] .
+

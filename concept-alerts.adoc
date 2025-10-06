@@ -1,0 +1,93 @@
+---
+sidebar: sidebar 
+permalink: concept-alerts.html 
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts 
+summary: 'Affichez les problèmes ou les risques potentiels dans votre environnement NetApp ONTAP liés à la capacité, aux performances, à la disponibilité et à la sécurité.  Vous pouvez accéder aux détails à l"aide d" ONTAP System Manager.' 
+---
+= En savoir plus sur les alertes ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Affichez les problèmes ou les risques potentiels dans vos systèmes ONTAP sur site NetApp à l’aide de la console NetApp .  Vous pouvez accéder aux détails à l'aide d' ONTAP System Manager.
+
+
+
+== Console NetApp
+
+Afficher les alertes ONTAP dans la console NetApp .
+
+La console NetApp fournit une gestion centralisée des services de stockage et de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise. La console est requise pour accéder aux services de données NetApp et les utiliser. En tant qu'interface de gestion, il vous permet de gérer de nombreuses ressources de stockage à partir d'une seule interface. Les administrateurs de console peuvent contrôler l’accès au stockage et aux services pour tous les systèmes de l’entreprise.
+
+Vous n'avez pas besoin de licence ni d'abonnement pour commencer à utiliser la console NetApp et vous n'encourez des frais que lorsque vous devez déployer des agents de console dans votre cloud pour garantir la connectivité à vos systèmes de stockage ou à vos services de données NetApp . Cependant, certains services de données NetApp accessibles depuis la console sont sous licence ou basés sur un abonnement.
+
+En savoir plus sur le https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Console NetApp"] .
+
+
+
+== Ce que vous pouvez faire avec les alertes ONTAP
+
+Consultez les alertes ONTAP pour rester informé des risques ou des risques potentiels dans votre système de stockage ONTAP .  Vous pouvez voir certaines alertes non EMS et certaines alertes EMS.  Vous pouvez voir des informations sur ces niveaux de gravité et ces zones d’impact :
+
+* *Gravités* : Critique, Avertissement, Informatif
+* *Domaines d'impact* : Capacité, Performance, Protection, Disponibilité, Sécurité, Configuration
+
+
+
+TIP: L'option Notifications dans le coin supérieur droit de l'interface utilisateur de la console NetApp surveille l'état des opérations effectuées par la console NetApp pour vous aider à identifier les problèmes que vous devez résoudre.  Vous pouvez recevoir ces notifications par e-mail.  L'option Notifications n'inclut pas les alertes des alertes ONTAP .
+
+
+
+== Avantages de la surveillance des alertes ONTAP
+
+La surveillance des alertes ONTAP offre les avantages suivants :
+
+* Recevez des alertes sur votre stockage ONTAP sur plusieurs clusters.
+* Affichez les alertes dans la même interface utilisateur de la console NetApp que celle que vous utilisez pour d’autres services.
+* Accédez aux alertes sur les clusters ONTAP : démarrez à partir de la console NetApp et consultez les détails dans ONTAP System Manager.
+
+
+
+
+== Coût
+
+Vous pouvez afficher les alertes ONTAP avec une licence NetApp ONTAP .
+
+
+
+== Licences
+
+L'affichage des alertes ONTAP nécessite une licence NetApp ONTAP 9.10 ou supérieure.
+
+Vous n’avez pas besoin d’avoir une licence d’essai.
+
+Les alertes ONTAP peuvent être visualisées uniquement en mode standard (public) de la console NetApp .
+
+
+
+== Comment fonctionnent les alertes ONTAP
+
+Les alertes ONTAP sont un composant essentiel de la console NetApp .  Les alertes ONTAP surveillent les clusters ONTAP et reçoivent les données d'alerte d' ONTAP.
+
+Les alertes ONTAP sont disponibles uniquement dans l'environnement SaaS de la console NetApp .  Il n'est pas disponible dans l'interface utilisateur d'un agent de console locale.
+
+
+
+== Systèmes et sources de données pris en charge
+
+Utilisez les alertes ONTAP pour vérifier les problèmes dans les systèmes et sources de données suivants.
+
+*Systèmes pris en charge*
+
+Un système NAS ou SAN ONTAP sur site est pris en charge.
+
+Les systèmes Cloud Volumes ONTAP ne sont pas pris en charge pour le moment.
+
+*Sources de données prises en charge*
+
+Afficher les alertes concernant certains événements qui se produisent dans ONTAP.  Il s’agit d’une combinaison d’alertes EMS et basées sur des métriques.

@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: Cette FAQ sur les alertes NetApp peut vous aider si vous recherchez simplement une réponse rapide à une question. 
+---
+= Questions fréquemment posées sur les alertes NetApp
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cette FAQ peut vous aider si vous recherchez simplement une réponse rapide à une question sur les alertes NetApp .
+
+
+
+== Accès aux alertes NetApp
+
+*Quelle est l'URL des alertes NetApp ?*  Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la console NetApp .
+
+*Avez-vous besoin d'une licence pour utiliser les alertes NetApp ?*
+
+L'utilisation des alertes NetApp nécessite une licence NetApp ONTAP 9.10 ou supérieure.  La licence n’a pas besoin d’être saisie dans le portefeuille numérique de la console NetApp .
+
+Vous n’avez pas besoin d’une licence d’essai pour les alertes NetApp .
+
+*Comment activer les alertes NetApp ?*  Les alertes NetApp ne nécessitent aucune activation.  L'option d'alertes est automatiquement activée dans la navigation de gauche de la console NetApp .
+
+Pour commencer, lorsque vous utilisez l’agent de console, il inclura les fonctionnalités appropriées pour les alertes NetApp .
+
+**Les alertes NetApp sont-elles disponibles en modes standard, restreint et privé ?**  Les alertes NetApp peuvent être déployées uniquement dans la console NetApp standard (publique).
+
+Pour une explication sur ces modes dans tous les services de la console NetApp , reportez-vous à https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modes de déploiement de la console NetApp"^] .
+
+**Comment sont gérées les autorisations d’accès ?**  Seuls les administrateurs de l'organisation NetApp Console ont la possibilité de lancer des alertes NetApp et de découvrir des charges de travail (car cela implique de s'engager à utiliser une ressource).
+
+Les alertes sont affichées pour les utilisateurs connectés en fonction de leur accès à la ressource du cluster dans cette organisation NetApp Console.
+
+
+
+== Afficher les alertes
+
+**Combien de temps dois-je attendre avant de commencer à recevoir des alertes ?**
+
+Attendez un maximum de 15 minutes pour la découverte initiale et ensuite un maximum de 5 minutes pour que les alertes apparaissent.  Cela varie d’une alerte à l’autre.
+
+**Pourquoi ne puis-je pas voir les alertes pour ONTAP en utilisant le mode direct sans l'agent de console ?*
+
+Les alertes NetApp sont disponibles uniquement à l’aide de l’agent de console standard sur site.  L'utilisation du mode direct ne surveille pas les clusters et n'affiche pas les alertes.
+
+**Pourquoi certaines alertes disparaissent-elles de la page Liste des alertes ?**
+
+La fonction d'alerte maintient certaines alertes dans un état actif et les ferme une fois que la condition du compteur est remplie ou qu'une période de temps est atteinte.  Cela varie d’une alerte à l’autre.
+
+Pour voir toutes les alertes, sélectionnez le filtre de la colonne Statut et sélectionnez l’option Fermé.
+
+
+
+== Affichage des informations
+
+**Quelle est la meilleure résolution d'appareil ?**  La résolution d'appareil recommandée pour les alertes NetApp est de 1920 x 1080 ou supérieure.
+
+**Quel navigateur dois-je utiliser ?**  N’importe quel navigateur moderne fonctionnera.

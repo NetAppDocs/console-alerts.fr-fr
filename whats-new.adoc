@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
+summary: Découvrez les nouveautés des alertes ONTAP . 
+---
+= Quoi de neuf avec les alertes ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les nouveautés des alertes ONTAP .
+
+
+
+== 06 octobre 2025
+
+
+
+=== Les BlueXP alerts sont désormais des alertes ONTAP
+
+Les BlueXP alerts ont été renommées en alertes ONTAP .
+
+Vous pouvez y accéder à partir de la barre de navigation de gauche de la console NetApp en sélectionnant *Stockage* > *Alertes*.
+
+
+
+=== BlueXP est désormais NetApp Console
+
+La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+
+
+
+== 07 octobre 2024
+
+
+
+=== Page de liste des BlueXP alerts
+
+Vous pouvez rapidement identifier les clusters ONTAP qui ont une faible capacité ou de faibles performances, évaluer le degré de disponibilité et identifier les risques de sécurité.  Vous pouvez afficher les alertes liées à la capacité, aux performances, à la protection, à la disponibilité, à la sécurité et à la configuration.
+
+
+
+=== Détails des alertes
+
+Vous pouvez accéder aux détails des alertes et trouver des recommandations.
+
+
+
+=== Afficher les détails du cluster lié à ONTAP System Manager
+
+Avec les BlueXP alerts, vous pouvez afficher les alertes associées à votre environnement de stockage ONTAP et accéder aux détails liés à ONTAP System Manager.
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["En savoir plus sur les BlueXP alerts"] .

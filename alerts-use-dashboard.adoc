@@ -1,0 +1,175 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: Obtenez un aperçu rapide des informations sur l’état de votre environnement ONTAP .  Vous pouvez rapidement identifier les clusters ONTAP qui ont une faible capacité ou de faibles performances, évaluer le degré de disponibilité, déterminer la disponibilité et identifier les risques de sécurité. 
+---
+= Afficher les risques potentiels dans le stockage ONTAP à l'aide de la page de liste des alertes
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Consultez en un coup d’œil les informations sur les risques potentiels de votre système ONTAP .  Vous pouvez rapidement identifier les clusters ONTAP qui ont une faible capacité ou de faibles performances, évaluer le degré de disponibilité, déterminer la disponibilité et identifier les risques de sécurité.
+
+Vous pouvez voir des informations sur ces niveaux de gravité et ces zones d’impact :
+
+* *Gravités* : Critique, Avertissement, Informatif
+* *Domaines d'impact* : Capacité, Performance, Disponibilité, Protection, Sécurité, Configuration
+
+
+
+
+== Alertes que vous pourriez voir
+
+Voici quelques-unes des alertes qui s'affichent.
+
+La gravité EMS correspond à la gravité des alertes ONTAP des manières suivantes :
+
+[cols="40,40"]
+|===
+| Gravité de l'alerte EMS : | Gravité de l'alerte de la console NetApp : 
+
+
+| alerte ou urgence | critique 
+
+
+| erreur | Aucune 
+
+
+| Faible | avertissement 
+
+
+| avis | informatif 
+
+
+| informatif | informatif 
+|===
+.Liste des alertes
+[%collapsible]
+====
+Alertes de gravité critique :
+
+* L'état global n'est pas en ligne
+* Panne de disque
+* Le temps de latence de SnapMirror est élevé
+* État du volume hors ligne
+* Pourcentage de violation du volume utilisé
+
+
+Alertes EMS :
+
+* Serveur antivirus occupé
+* Les informations d'identification AWS ne sont pas initialisées
+* Niveau Cloud inaccessible
+* Disque hors service
+* Alimentation d'étagère de disque découverte
+* Alimentation des étagères de disques retirée
+* Resynchronisation de la réplication du miroir FabricPool terminée
+* La limite d'utilisation de l'espace FabricPool est presque atteinte
+* Limite d'utilisation de l'espace FabricPool atteinte
+* Les commandes du port cible FC ont été dépassées
+* La restitution du pool de stockage a échoué
+* Interconnexion HA en panne
+* LUN détruit
+* LUN hors ligne
+* Panne du ventilateur de l'unité principale
+* Ventilateur de l'unité principale en état d'avertissement
+* Nombre maximal de sessions par utilisateur dépassé
+* Nombre maximal de fois par fichier ouvert dépassé
+* Commutation automatique non planifiée de MetroCluster désactivée
+* Surveillance de MetroCluster
+* Conflit de nom NetBIOS
+* Le pool de ressources NFSv4 est épuisé
+* Panique du nœud
+* Faible espace de volume de racine de nœud
+* Partage administrateur inexistant
+* Serveur antivirus non réactif
+* Aucun moteur d'analyse enregistré
+* Pas de connexion Vscan
+* Espace de noms NVMe détruit
+* Espace de noms NVMe hors ligne
+* Espace de noms NVMe en ligne
+* Période de grâce de la licence NVMe-oF active
+* La période de grâce de la licence NVMe-oF a expiré
+* Début de la période de grâce de la licence NVMe-oF
+* Batterie NVRAM faible
+* Hôte du magasin d'objets non résoluble
+* LIF intercluster du magasin d'objets est en panne
+* Incompatibilité de signature du magasin d'objets
+* Mémoire du moniteur QoS au maximum
+* Activité de ransomware détectée
+* La relocalisation du pool de stockage a échoué
+* Ajout du médiateur ONTAP
+* Le médiateur ONTAP n'est pas accessible
+* Médiateur ONTAP inaccessible
+* Suppression du médiateur ONTAP
+* Délai d'expiration de READDIR
+* L'état SAN « actif-actif » a changé
+* Battement de cœur du processeur de service manqué
+* Le battement de cœur du processeur de service s'est arrêté
+* Processeur de service hors ligne
+* Processeur de service non configuré
+* Échec de la copie fantôme
+* Adaptateur cible SFP dans FC recevant une faible puissance
+* Adaptateur cible SFP dans FC transmettant une faible puissance
+* Panne du ventilateur de l'étagère
+* Le certificat SMBC CA a expiré
+* Expiration du certificat SMBC CA
+* Le certificat client SMBC a expiré
+* Expiration du certificat client SMBC
+* Relation SMBC désynchronisée
+* Le certificat du serveur SMBC a expiré
+* Le certificat du serveur SMBC expire
+* Relation SnapMirror désynchronisée
+* Panne d'alimentation du commutateur de stockage
+* Surveillance anti-ransomware des machines virtuelles de stockage
+* L'arrêt de la machine virtuelle de stockage a réussi
+* Le système ne peut pas fonctionner en raison d'une panne du ventilateur de l'unité principale
+* Trop d'authentifications CIFS
+* Disques non attribués
+* Accès utilisateur non autorisé au partage administrateur
+* Virus détecté
+* Surveillance anti-ransomware du volume
+* Le redimensionnement automatique du volume a réussi
+* Volume hors ligne
+* Volume restreint
+
+
+====
+Pour plus de détails sur les alertes ONTAP , reportez-vous à la documentation ONTAP et aux informations sur ONTAP System Manager à l'adresse https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["Informations d' ONTAP System Manager sur les problèmes de capacité, de sécurité et de configuration"^] .
+
+
+
+== Afficher les problèmes de stockage ONTAP
+
+.Étapes
+. link:alerts-start-login.html["Connectez-vous à la console NetApp"] .
+. Dans la barre de navigation de gauche de la console, sélectionnez *Stockage* > *Alertes*.
++
+Après la découverte, la page Liste des alertes affiche une liste des alertes dans votre système ONTAP .
+
++
+Il peut y avoir un délai entre la survenue d'un événement et le moment où les alertes ONTAP l'indiquent.
+
+. À partir de la page de liste des alertes, vous pouvez afficher et effectuer l’une des opérations suivantes :
++
+** Modifiez l’ordre de tri en sélectionnant la flèche vers le haut ou vers le bas pour une colonne.
+** Modifiez le filtre dans les colonnes pour afficher uniquement les informations souhaitées.
++
+
+TIP: Par exemple, vous souhaiterez peut-être voir uniquement les alertes liées à la capacité.  Pour ce faire, sélectionnez l’icône de filtre dans la colonne Zone d’impact, sélectionnez *Capacité*, puis sélectionnez *Appliquer*.
+
++
+image:alerts-dashboard-capacity-filter.png["Page d'alertes affichant les filtres de zone d'impact"]
+
+** Téléchargez un fichier CSV contenant les informations des alertes.
++
+Vous pouvez télécharger jusqu'à 1000 alertes.  Le fichier comprend des données basées sur les filtres qui ont été définis.
+
+** Sélectionnez une alerte et explorez les détails de l’alerte sur ce cluster. Voir link:alerts-use-alerts.html["Afficher les détails de l'alerte"] .
+
+
+
