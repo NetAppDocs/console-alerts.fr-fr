@@ -16,6 +16,7 @@ Cette FAQ peut vous aider si vous recherchez simplement une réponse rapide à u
 
 
 
+[[access-to-netapp-alerts]]
 == Accès aux alertes NetApp
 
 *Quelle est l'URL des alertes NetApp ?*  Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la NetApp Console.
@@ -40,6 +41,7 @@ Les alertes sont affichées pour les utilisateurs connectés en fonction de leur
 
 
 
+[[view-alerts]]
 == Afficher les alertes
 
 **Combien de temps dois-je attendre avant de commencer à recevoir des alertes ?**
@@ -58,6 +60,7 @@ Pour voir toutes les alertes, sélectionnez le filtre de la colonne Statut et s�
 
 
 
+[[display-of-information]]
 == Affichage des informations
 
 **Quelle est la meilleure résolution d'appareil ?**  La résolution de périphérique recommandée pour les alertes NetApp est de 1920 x 1080 ou supérieure.

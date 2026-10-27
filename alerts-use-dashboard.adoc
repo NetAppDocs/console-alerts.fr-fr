@@ -4,7 +4,7 @@ permalink: alerts-use-dashboard.html
 keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
 summary: Obtenez un aperçu rapide des informations sur l’état de votre environnement ONTAP .  Vous pouvez rapidement identifier les clusters ONTAP qui ont une faible capacité ou de faibles performances, évaluer le degré de disponibilité, déterminer la disponibilité et identifier les risques de sécurité. 
 ---
-= Afficher les risques potentiels dans le stockage ONTAP à l'aide de la page de liste des alertes
+= Consultez les risques potentiels dans le stockage ONTAP à l’aide de la page de liste des alertes dans NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -22,6 +22,7 @@ Vous pouvez voir des informations sur ces niveaux de gravité et ces zones d’i
 
 
 
+[[alerts-you-might-see]]
 == Alertes que vous pourriez voir
 
 Voici quelques-unes des alertes qui s'affichent.
@@ -143,6 +144,7 @@ Pour plus de détails sur les alertes ONTAP , reportez-vous à la documentation 
 
 
 
+[[view-ontap-storage-issues]]
 == Afficher les problèmes de stockage ONTAP
 
 .Étapes
